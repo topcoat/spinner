@@ -1,0 +1,4 @@
+spinner
+=======
+
+Topcoat loading spinner
