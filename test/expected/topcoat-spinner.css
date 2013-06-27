@@ -17,7 +17,7 @@ limitations under the License.
   Topcoat loading spinner
   ---------------------------------
 
-  div
+  <div class='topcoat-spinner'></div>
 
 */
 .topcoat-spinner {

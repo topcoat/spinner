@@ -4,7 +4,7 @@
   Topcoat loading spinner
   ---------------------------------
 
-  div
+  <div class='topcoat-spinner'></div>
 
 */
 
@@ -13,5 +13,10 @@
   background: var-bg-image
   -webkit-animation: spinner 1s infinite linear;
 
-@import spinner-media-queries
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi)
+	.spinner
+		background var-bg-image2x
+		background-size: 36px
+
 @import spinner-animation
